@@ -1,0 +1,280 @@
+/*
+#424242
+ color:#7B1FA2;
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #2a2828;
+
+}
+
+nav{
+	background-color: #010200e6;
+	text-align: center;
+	border-radius: 0 300%;
+}
+
+.navbar-nav{
+	list-style: armenian;
+	display: contents;
+}
+.navbar-link{
+	text-decoration: none;
+	color: #aeea00;
+	
+}
+
+.navbar-link:hover{
+    padding: 12px 0px;
+	color: aqua;
+}
+
+.navbar-link:active{
+	color: white;
+}
+.navbar-item{
+	display: inline-block;
+	padding: 8px 50px;
+	margin: 0 20px;
+	background-color: #4e342e;
+	border-radius:10px 5px 25px 20px; 
+}
+
+header{
+/*
+	 background: lightblue url("k2.jpg") no-repeat center;
+	 background-size: cover;
+	
+*/
+	text-align: center;
+	background-color: #33691e;
+	padding: 30px;
+	line-height: 30px;
+	border-radius: 0 88%;
+}
+header h1{
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 10px;
+	color: #bbFFee;
+
+}
+header h1:hover{
+	color: aquamarine;
+}
+header h3{
+	font-family: 'Prompt', sans-serif;
+	word-spacing: 5px;
+	color: #c5e1a5;
+
+}
+header p{
+	color: #BDBDBD;
+	
+
+}
+header a:link , .Self-study a:link{
+	color: #aeea00;
+	background-color: #4e342e;
+	text-decoration-line: none;
+	border-radius: 10px;
+	padding: 5px 10px;
+	
+		
+}
+header a:hover,.Self-study a:hover{
+	color: #ceea00;
+	background-color: #4e342a;
+	font-size: 20px;
+		
+}
+.aboutmy{
+	text-transform: capitalize;
+	padding: 20px 20%;
+	background-color:#e0e0e0;
+	display: grid;  
+    grid-template-columns: 1fr 2fr ;
+	grid-gap: 10px;
+	white-space:inherit;
+
+}
+.aboutmy h1{
+	text-transform: uppercase;
+	color: #827717;
+	font-family: 'Open Sans', sans-serif;
+	grid-column: 1/3;
+	grid-row: 1;
+	height: 30px;
+	letter-spacing: 8px;
+	font-weight: 900;
+	word-spacing: 10px;
+}
+
+ .aboutmy h1:hover ,.Self-study h1:hover{
+	color: #3e4759;
+}
+.aboutmy img{
+	width: 95%;
+	height: 100%;
+    grid-column: 1/2;
+	grid-row: 2/4;
+	column-gap: 0;
+
+}
+.aboutmy p{
+	font-family: 'Oswald', sans-serif;
+	padding-right: 10px;
+}
+
+.aboutmy p1{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.aboutmy p1{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.Academiceducation{
+	background: lightblue url("eimage4.gif") no-repeat bottom;
+/*	background-size: cover;*/
+	color: #004d40;
+	padding: 50px 16% 50px 19%;
+	display: grid;  
+    grid-template-columns: 1fr 2fr ;
+	grid-gap: 5px;
+	
+
+}
+.Academiceducation h3{
+	color: #004d40;
+}
+.Academiceducation p{
+	color: #1b5e20;
+}
+
+.Academiceducation h1{
+	text-transform: uppercase;
+	color: #827717;
+	font-family: 'Open Sans', sans-serif;
+	height: 40px;
+	letter-spacing: 4px;
+	font-weight: 900;
+	word-spacing: -2px;
+	padding-bottom: 10px;
+	grid-column: 1/3;
+	grid-row: 1;
+}
+.ah1{
+	grid-column: 1/2;
+	grid-row: 2;
+
+}
+.ah2{
+	grid-column: 1/2;
+	grid-row: 3;
+}
+.ah3{
+    grid-column: 1/2;
+	grid-row: 4;
+}
+.ah4{
+	grid-column: 1/2;
+	grid-row: 5;
+}
+.ap1{
+	grid-column: 2/3;
+	grid-row: 2;
+}
+.ap2{
+	grid-column: 2/3;
+	grid-row: 3;
+}
+.ap3{
+	grid-column: 2/3;
+	grid-row: 4;
+}
+.ap4{
+	grid-column: 2/3;
+	grid-row: 5;
+}
+.Self-study{
+	background: #90a4ae url("ss2.png")no-repeat right top;
+	background-size: cover;
+	padding: 20px 18%;
+/*
+	display: grid;
+	grid-template-rows: auto;
+	grid-row-gap: 12px;
+*/
+}
+.Self-study h1{
+	grid-row: 1;
+	color: #131700;
+	font-weight: 900;
+	font-size: 32px;
+	letter-spacing: 4px;
+	height: 50px;
+}
+/*
+.Self-study .sh1{
+    grid-row: 2;
+}
+.Self-study .sp1{
+    grid-row: 3;
+}
+.Self-study .sh2{
+    grid-row: 4;
+}
+.Self-study .sp2{
+    grid-row: 5;
+}
+.Self-study .sh3{
+    grid-row: 6;
+}
+.Self-study .sp3{
+    grid-row: 7;
+}
+.Self-study .sh4{
+    grid-row: 8;
+}
+.Self-study .sp4{
+    grid-row: 9;
+}
+.Self-study .sh5{
+    grid-row: 10;
+}
+.Self-study .sp5{
+    grid-row: 11;
+}
+.Self-study .sh6{
+    grid-row: 12;
+}
+.Self-study .sp6{
+    grid-row: 13;
+}
+.Self-study .sh7{
+    grid-row: 14;
+}
+.Self-study .sp7{
+    grid-row: 15;
+}
+*/
+.Self-study p span{
+    font-weight: 800;
+	font-size: 20px;
+	color: #4e342e;
+}
+.Self-study p{
+    color: #496779;
+}
+.Self-study h3{
+    color: #040039;
+	font-size: 22px;
+}
+.Self-study a{
+	color: aquamarine;
+	padding: 3px;
+	font-size: 12px;
+}
